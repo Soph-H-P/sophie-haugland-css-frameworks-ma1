@@ -7621,6 +7621,7 @@ body {
 
 h1, .h1 {
   margin: 50px auto 30px auto;
+  font-size: 34px;
   font-weight: normal;
   text-align: center;
 }
@@ -7700,7 +7701,7 @@ h1, .h1 {
 }
 
 .squares .squares__square, .squares .squares__square--pink, .squares .squares__square--white {
-  width: 350px;
+  max-width: 350px;
   height: 355px;
   border-radius: 15px;
   background: #f4f3ee;

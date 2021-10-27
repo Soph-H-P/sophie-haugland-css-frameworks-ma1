@@ -3,7 +3,7 @@
   margin: 0 auto;
 
   .squares__square {
-    width: 350px;
+    max-width: 350px;
     height: 355px;
     border-radius: 15px;
     background: $nav-color;
