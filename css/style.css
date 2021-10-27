@@ -2784,6 +2784,12 @@ h1 {
   margin: 0 auto;
 }
 
+.squares .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .squares .squares__square, .squares .squares__square--pink, .squares .squares__square--white {
   max-width: 350px;
   height: 355px;

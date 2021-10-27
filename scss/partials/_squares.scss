@@ -2,6 +2,10 @@
   max-width: 95%;
   margin: 0 auto;
 
+  .row {
+    justify-content: center;
+  }
+
   .squares__square {
     max-width: 350px;
     height: 355px;
