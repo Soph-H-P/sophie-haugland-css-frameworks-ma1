@@ -2762,6 +2762,7 @@ h1 {
   background-color: #f4f3ee;
   color: #978b82;
   padding-top: 1rem;
+  margin-top: 200px;
 }
 
 .footer p {
@@ -2810,6 +2811,12 @@ h1 {
   .squares .squares__square, .squares .squares__square--pink, .squares .squares__square--white {
     width: 250px;
     height: 250px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .squares {
+    max-width: 1100px;
   }
 }
 /*# sourceMappingURL=style.css.map */

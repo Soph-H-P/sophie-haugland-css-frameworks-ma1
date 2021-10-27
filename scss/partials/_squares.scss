@@ -30,4 +30,7 @@
       height: 250px;
     }
   }
+  @media (min-width: 1250px) {
+    max-width: 1100px;
+  }
 }
