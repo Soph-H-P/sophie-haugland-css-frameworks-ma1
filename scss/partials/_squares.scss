@@ -1,0 +1,33 @@
+.squares {
+  max-width: 95%;
+  margin: 0 auto;
+
+  .squares__square {
+    width: 350px;
+    height: 355px;
+    border-radius: 15px;
+    background: $nav-color;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.07);
+    margin: 1rem auto;
+  }
+
+  .squares__square--pink {
+    @extend .squares__square;
+    background: $primary;
+    @include border(white);
+  }
+
+  .squares__square--white {
+    @extend .squares__square;
+    background: white;
+    @include border($primary);
+  }
+
+  @media (min-width: $media-size) {
+    max-width: 75%;
+    .squares__square {
+      width: 250px;
+      height: 250px;
+    }
+  }
+}

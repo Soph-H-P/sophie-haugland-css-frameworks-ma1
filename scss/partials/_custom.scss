@@ -1,0 +1,12 @@
+$primary: #c32c72;
+$primary-font: "Open Sans", sans-serif;
+$secondary-font: "Archivo Narrow", sans-serif;
+$background-color: #e5e5e5;
+$nav-color: #f4f3ee;
+$dark-color: #463f3a;
+
+$media-size: 768px;
+
+$navbar-light-color: $dark-color;
+$navbar-light-hover-color: lighten($dark-color, 30%);
+$navbar-light-toggler-border-color: rgba(0, 0, 0, 0);

@@ -1,0 +1,19 @@
+.footer {
+  flex-shrink: 0;
+  background-color: $nav-color;
+  color: lighten($dark-color, 30%);
+  padding-top: 1rem;
+  p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  @media (min-width: $media-size) {
+    .footer__copyright {
+      text-align: right;
+    }
+    .footer__email-address {
+      text-align: left;
+    }
+  }
+}
